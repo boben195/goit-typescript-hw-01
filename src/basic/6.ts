@@ -1,13 +1,16 @@
+type Address = {
+    city: string,
+    country: string
+}
+
+
 type UsesInfo = {
     name: string,
     age: number,
     email: string,
     address?: Address
 }
-type Address = {
-    city: string,
-    country: string
-}
+
 
 const mango: UsesInfo = {
     name: 'Mango',

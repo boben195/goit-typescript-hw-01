@@ -1,6 +1,7 @@
 
 
-
+type Details = { createAt: Date, updateAt: Date };
+type Status = 'open' | 'close';
 
 
 type Pages = {
@@ -11,8 +12,7 @@ type Pages = {
     details?: Details
 }
 
-type Details = { createAt: Date, updateAt: Date };
-type Status = 'open' | 'close';
+
 
 
 const page1: Pages = {
